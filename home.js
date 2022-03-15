@@ -28,8 +28,8 @@ export const HomeComponent = ({  navigation }) => {
           navigation.navigate({name:'details',params:{
               id:prod.id
           }})
-      }}
-        >
+      }}>
+        
           <Box style={styles.prod}>
             <View style={styles.flow}>
               <Icon
